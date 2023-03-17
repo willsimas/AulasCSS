@@ -1,0 +1,44 @@
+*{
+    font-family: arial;
+}
+html,body{
+    margin:0;
+    height: 100%;
+}
+
+header{
+    display: table;
+    width: 100%;
+    height:40px;
+    text-align: center;
+    color: #fff;
+    background-color: #124545;
+    margin-bottom:20px;
+}
+
+/*****/
+.container{
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card{
+    border: 1px solid #124545;
+    border-radius: 8px;
+    box-shadow: 2px 2px;
+    
+    margin: 15px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 45%;
+}
+
+.card div{
+    flex-grow: 1;
+}
